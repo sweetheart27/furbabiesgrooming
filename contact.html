@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--
+Alexis Stephenson
+contact.html
+11/22/2024
+-->
+<html lang="en">
+<head>
+	<title>Location | Fur Babies Grooming</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Contact us at (252)555-5507 or visit us at: 2535 Lanier Tech Dr, Gainesville, GA 30507">
+	    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+		<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<body>
+
+<!-- Mobile Nav -->
+<nav class="mobile-nav">
+	<div id="menu-links">
+		<a href="index.html">Home</a>
+		<a href="about.html">About Us</a>
+		<a href="prices.html">Prices</a>
+		<a href="appointments.html">Appointments</a>
+		<a href="contact.html">FAQs</a>
+	</div>
+	<a class="menu-icon" onclick="hamburger()">
+		<div>&#9776;</div>
+	</a>
+</nav>
+
+	<header>
+		<h1>Fur Babies Grooming</h1>
+		<h3>"Everypet is treated like Family"</h3>
+	</header>
+
+<!-- Tablet, Desktop Nav -->
+	<nav class="tab-desk">
+		<ul>
+			<li><a href="index.html">Home</a></li> 
+			<li><a href="about.html">About Us</a></li> 
+			<li><a href="prices.html">Prices</a></li> 
+			<li><a href="appointments.html">Appointments</a></li> 
+			<li><a href="contact.html">FAQs</a></li>
+		</ul>
+	</nav>
+
+	<!--Use the main area to add the main content of the webpage-->
+		<main>
+		
+	<div id="contact">
+		
+		<h2>Ready to schedule an appointment with us? Contact us or use the appointment tab to schedule with us today.</h2>
+		<p class="tel-link mobile"><a href="tel:2525555507">(252)555-5507</a></p>
+		<p class="tab-desk tel-num">(252)555-5507</p>
+		<p>Email us: <a href="mailto:furbabiesgrooming@services.net" class="email-link">furbabiesgrooming@services.net</a></p>
+		<p>Visit us at: 2535 Lanier Tech Dr, Gainesville, GA 30507</p>
+			
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3294.7576243930234!2d-83.7824068235354!3d34.33119147305329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5f7eb0ba84211%3A0x382695e3d9d47bae!2s2535%20Lanier%20Tech%20Dr%2C%20Gainesville%2C%20GA%2030507!5e0!3m2!1sen!2sus!4v1727192657127!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+			
+	</div>
+	<div id="form">
+		<h2>Complete the form below and one of our staff members will contact you.</h2>
+		<form class="form-grid"><!-- Start Form -->
+			<fieldset>
+				<legend>Customer Information</legend>
+				<label for="fName">First Name:</label>
+				<input type="text" name="fName" id="fName">
+				<label for="lName">Last Name:</label>
+				<input type="text" name="lName" id="lName">
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email">
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone">
+			</fieldset>
+			<fieldset>
+				<legend>Pet Information</legend>
+				<p>What kind of pet do you have?</p>
+				<label for="dog"><input type="checkbox" name="interest" id="dog" value="Dog">Dog</label>
+				<label for="cat"><input type="checkbox" name="interest" id="cat" value="Cat">Cat</label>
+				<label for="bName">Breed:</label>
+				<input type="text" name="bName" id="bName">
+			</fieldset>
+			<input type="submit" id="submit" value="Submit" class="btn">
+		</form>
+	</div>
+		
+	</main>
+		
+	<footer>
+	
+		<div class="copyright">
+			<p>&copy; Copyright 2024. All Rights Reserved.</p>
+			<p><a href="mailto:furbabiesgrooming@services.net">furbabiesgrooming@services.net</a></p>
+		</div>
+		
+		<div class="social">
+			<a href=https://www.facebook.com><img src="images/facebook-logo.png" alt="Facebook logo"></a>
+			<a href=https://www.twitter.com><img src="images/twitter-logo.png" alt="Twitter logo"></a>
+		</div>
+	</footer>
+	
+	<script src="scripts/script.js"></script>
+	
+</body>
+</html>
